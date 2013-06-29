@@ -3,6 +3,8 @@
 A Clojure wrapper for the Java [pegdown](http://pegdown.org) library
 (markdown processor) with syntax highlighting using [Pygments](http://pygments.org/).
 
+[![Build Status](https://travis-ci.org/hashobject/sitemap.png)](https://travis-ci.org/hashobject/pygdown)
+
 ## Usage
 
 FIXME
