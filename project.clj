@@ -1,6 +1,6 @@
-(defproject pygdown "0.1.3"
+(defproject pygdown "0.1.4"
   :description "A Clojure library for markdown processing
-  and html generating with syntax higlighting."
+  and html generating with syntax highlighting."
   :signing {:gpg-key "HashObject Ltd <team@hashobject.com>"}
   :url "https://github.com/hashobject/pygdown"
   :license {:name "Eclipse Public License"
