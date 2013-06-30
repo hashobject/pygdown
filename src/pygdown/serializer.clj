@@ -7,5 +7,6 @@
 
 (defn -visit-CodeNode [this node]
   (let [code (.getText node)
-        highlighted-code (pygmenter/pygmentize code)]
+        escaped-code (clojure.string/escape code {\" "\"" \< "<" \> ">" \& "&"})
+        highlighted-code (pygmenter/pygmentize escaped-code)]
     (.print (.printer this) highlighted-code)))
