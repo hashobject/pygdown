@@ -1,5 +1,5 @@
 (ns pygdown.core
-  "A Clojure library for markdown processing
+  "Clojure library for markdown processing
   and html generating with syntax higlighting."
   (:import (org.pegdown PegDownProcessor LinkRenderer))
   (:import (org.pegdown.ast CodeNode RootNode)))

@@ -1,5 +1,5 @@
 (defproject pygdown "0.1.5"
-  :description "A Clojure library for markdown processing
+  :description "Clojure library for markdown processing
   and html generating with syntax highlighting."
   :signing {:gpg-key "HashObject Ltd <team@hashobject.com>"}
   :url "https://github.com/hashobject/pygdown"
